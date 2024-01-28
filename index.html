@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <title>Mini portifolio</title>
+</head>
+<body>
+    <main class="cartao">
+        <div class="minhas-informacoes">
+            <img src="./src/imagens/foto-perfil1_resized.jpg" alt="foto de perfil">
+            <h1 class="nome">Álvaro Alves</h1>
+            <h2 class="cargo">Desenvolvedor Frontend Júnior</h2>
+        </div>
+        
+        <div class="conteudo">
+            <ul class="abas">
+                <li class="aba selecionado" id="sobre-mim">
+                    <img src="./src/imagens/sobre.gif" alt="icone de sobre mim">
+                </li>
+                <li class="aba" id="minhas-redes">
+                    <img src="./src/imagens/coracao.gif" alt="icone de redes sociais">
+                </li>
+                <li class="aba" id="meus-projetos">
+                    <img src="./src/imagens/estrela.gif" alt="icone de projetos">
+                </li>
+            </ul>
+
+            <div class="informacoes-abas">
+                <div class="informacao selecionado" id="informacao-sobre-mim">
+                    <h3 class="sub-titulo">Sobre</h3>
+ 
+                    <div class="descricao">
+                        <p>Oi! meu nome é Álvaro Alves, seja bem-vindo(a)!</p>
+
+                        <p>
+                            Sou uma pessoa apaixonada pela programação desde que eu tinha 17 anos. Sempre tive o sonho de trabalhar com programação e atualmente comecei a colocar esse sonho em prática estudando <span>HTML, CSS, JavaScript e React</span>.
+                            Gosto muito de café (até demais), e meus principais hobbies são ler livros cristãos, fazer devocionais, jogar MMO RPG, ver animes e séries.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="informacao" id="informacao-minhas-redes">
+                    <h3 class="sub-titulo">Minhas redes</h3>
+
+                    <ul class="redes-sociais">
+                        <li>
+                           <a href="https://europa.eu/europass/eportfolio/api/eprofile/shared-profile/%C3%A1lvaro-alves/7aecb8df-8529-4f4d-846e-6eb5fa34fe2e?view=html" target="_blank" class="curriculo">Currículo</a> 
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/alvaro-alves-4a7646144/" target="_blank" class="linkedin">Linkedin</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/alvaro-asouza" target="_blank" class="github">GitHub</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="informacao" id="informacao-meus-projetos">
+                    <h3 class="sub-titulo">Meus projetos</h3>
+
+                    <ul class="projetos-pessoais">
+                        <li>
+                            <p>Em HTML, CSS e JavaScript.</p>
+                           <a href="https://alvaro-asouza.github.io/projeto-pregadores-reformados-final/" target="_blank" class="projeto-1">Pregadores reformados</a> 
+                           
+                        </li>
+                        <li>
+                            <p>Em HTML5 e CSS.</p>
+                            <a href="https://alvaro-asouza.github.io/projeto-museu-nacional/" target="_blank" class="projeto-2">Museu nacional</a>
+                        </li>
+                        <li>
+                            <a href="" target="_blank" class="projeto3">Em andamento...</a>
+                        </li>
+                        <!-- <li>
+                            <p>Projeto responsivo, feito em HTML5 e CSS.</p>
+                            <a href="https://github.com/" target="_blank" class="projeto4">Projeto 4</a>
+                        </li> -->
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
